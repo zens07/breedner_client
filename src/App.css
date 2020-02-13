@@ -24,6 +24,21 @@
   color: white;
 }
 
+.size-lg-responsive{
+    font-size: 10vh;
+}
+.size-md-responsive{
+  font-size: 2vh;
+}
+
+.custom-footer {
+  height: 50px;
+  width: 100vw;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  background-color: darksalmon;
+}
 .App-link {
   color: #61dafb;
 }
