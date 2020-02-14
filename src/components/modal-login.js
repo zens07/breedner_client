@@ -1,5 +1,11 @@
 import React, {Component} from 'react';
-import {Modal, Button, Form, Col} from 'react-bootstrap';
+import {
+    Modal, 
+    Button, 
+    Form, 
+    Col
+} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 
 class ModalLogin extends Component {
     render() {
@@ -26,9 +32,11 @@ class ModalLogin extends Component {
                     </Form>    
                 </Modal.Body>
                 <Modal.Footer>
-                    <Button variant="primary">
-                        Login
-                    </Button>
+                    <Link to="/home">
+                        <Button variant="primary">
+                            Login
+                        </Button>
+                    </Link>
                 </Modal.Footer>
             </Modal>
         );

@@ -32,7 +32,7 @@ class Content extends Component {
                 <Container fluid>
                     <Row d-flex justify-content-center>
                         <Col className="p-0" lg={12} md={12} sm={12} xs={12}>
-                            <Card className="text-white">
+                            <Card className="text-white custom-font">
                                 <Card.Img src= "assets/images-content/bg-cat.jpg"  alt= "background image" style={{height:'100vh'}} />
                                 <Card.ImgOverlay>
                                     <Col className="full" lg={12} md={12} sm={12} xs={12}>
