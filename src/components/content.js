@@ -33,7 +33,7 @@ class Content extends Component {
                     <Row d-flex justify-content-center>
                         <Col className="p-0" lg={12} md={12} sm={12} xs={12}>
                             <Card className="text-white custom-font">
-                                <Card.Img src= "assets/images-content/bg-cat.jpg"  alt= "background image" style={{height:'100vh'}} />
+                                <Card.Img src= "assets/images-content/bg-cat.jpg"  alt= "background image" style={{height:'100vh',backgroundSize: 'cover'}} />
                                 <Card.ImgOverlay>
                                     <Col className="full" lg={12} md={12} sm={12} xs={12}>
                                         <Navigation popupLogin={this.openLogin} />
@@ -56,12 +56,12 @@ class Content extends Component {
                                                 </Card.Text>
                                             </Col>
                                             <Col className="text-center">
-                                                <Button className="responsive-width rounded-pill" size="md" onClick={this.openRegister}>Register</Button>
+                                                <Button className="responsive-width rounded" onClick={this.openRegister} style={{width:'100px'}}>Register</Button>
                                             </Col>
                                         </Card.Body>
                                     </Col>
                                 </Card.ImgOverlay>
-                                <div className="custom-footer m-0 p-0">
+                                <div className="bg-image-default text-center m-0 p-0">
                                     <h1>
                                         FIND YOUR PET'S MATCH
                                     </h1>
